@@ -1,0 +1,70 @@
+body{
+    background: rgb(47, 175, 250);
+    background: linear-gradient(circle,rgb(34, 195, 61) 0%, rgb(11, 155, 95) 87%);
+    background-attachment: fixed;
+    margin: 0;
+}
+#form{
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    background-color:transparent;
+    padding: 25px;
+   
+
+
+}
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+   
+    
+
+}
+#form button{
+    background-color: rgb(195, 0, 255);
+    color: white;
+    border: 2px solid rgb(255, 0, 170);
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 5 ease;
+}
+#form button:hover{
+    background-color: rgb(255, 0, 13);
+    border: 1px solid rgb(255, 0, 76);
+    color: white;
+    
+
+}
+.signup{
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:red;
+    
+    
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15x;
+}
+.input input{
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px;
+}
+.error{
+   
+    margin-top: 3px;
+}
+.input.success input{
+    border-color: rgb(0, 255, 47);
+}
+.input.error input{
+    border-color: rgb(255, 153, 0);
+}
